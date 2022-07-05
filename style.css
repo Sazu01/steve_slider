@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: "Montserrat", sans-serif;
+  font-size: 62.5%;
+}
+
+.slider_section {
+  background-color: #242424;
+
+  padding-top: 155px;
+  padding-bottom: 160px;
+}
+
+.con {
+  max-width: 1200px;
+  margin: 0 auto;
+  /* border: 2px solid seagreen; */
+}
+
+.con h1 {
+  /* font-family: "Kumbh Sans"; */
+  font-weight: 600;
+  font-size: 62px;
+  line-height: 1.2401612903225807em;
+  letter-spacing: -0.03em;
+
+  color: #ffffff;
+}
+
+.con h2 {
+  /* font-family: "Kumbh Sans"; */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.25em;
+  letter-spacing: -0.02em;
+
+  background: linear-gradient(25.29deg, #c4a983 17.72%, #b3966e 65.01%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+
+  margin-bottom: 41px;
+}
+
+.display_none {
+  display: none;
+}
+
+.mid_girl {
+  transform: scale(1.218);
+}
+
+.musk {
+  max-width: 992px;
+  margin: 0 auto;
+  padding: 66px 0;
+
+  overflow: hidden;
+}
+
+.img_wrapper img {
+  width: 290px;
+}
+
+.img_wrapper {
+  transition: transform 300ms ease;
+}
+
+.cam {
+  display: flex;
+  grid-gap: 60px;
+  transform: translateX(-351px);
+}
+
+.tran_inject {
+  transition: transform 500ms ease;
+}
+
+.musk_wrapper {
+  position: relative;
+}
+
+.slide-nav {
+  position: absolute;
+  top: 50%;
+
+  cursor: pointer;
+  z-index: 2;
+}
+
+#l-nav {
+  transform: translateY(-50%);
+}
+
+#r-nav {
+  right: 0;
+  transform: translateY(-50%);
+}
+
+/* iPhone */
+
+.iphone_bg {
+  width: 290px;
+  height: 590px;
+
+  background-color: #fff;
+  border-radius: 46px;
+  padding: 14px;
+
+  box-shadow: inset 0px 0px 0px 5px #e3e1eb;
+}
+
+.frame_iphone img {
+  width: 100%;
+}
+
+.noch {
+  border-radius: 15px 15px 0 0;
+}
+.chin {
+  border-radius: 0 0 15px 15px;
+}
+
+.slide_content {
+  position: relative;
+}
+
+.mid_image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+div.slide_content .play_btn {
+  width: 70px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  z-index: 4;
+  cursor: pointer;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background-color: black;
+  opacity: 0.1;
+  z-index: 3;
+}
